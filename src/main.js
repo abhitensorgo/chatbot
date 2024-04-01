@@ -6,7 +6,6 @@ const chatboxHTML =
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chatbot</title>
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body style="background-color: rgb(43, 52, 43)">
@@ -14,13 +13,13 @@ const chatboxHTML =
         <button id="open-dashboard">
             <div id="chat-icon" style="background-image: url('../assets/ui-motion.gif');"></div>
         </button>
-        <img id="icon-button-badge" src="../assets/Alarm.svg"></img>
+        <img id="icon-button-badge" src="https://raw.githubusercontent.com/abhitensorgo/chatbot/main/assets/Alarm.svg"></img>
         <div id="notif-container">
             <div id="notif">Hey there!&nbsp; <span id="toggle-msg"> Sparky here.</span></div>
         </div>
     </div>
     <button id="close-all">
-        <div id="close-icon" style="background-image: url('../assets/Trigger.svg');"></div>
+        <div id="close-icon" style="background-image: url('https://raw.githubusercontent.com/abhitensorgo/chatbot/main/assets/Trigger.svg');"></div>
     </button>
     <div id="dashboard">
         <div id="dashboard-header">
@@ -36,14 +35,14 @@ const chatboxHTML =
                 <p>We typically reply in few minutes</p>
             </div id="button">
             <button id="open-chatbox">
-                <img src="../assets/open-chat.svg" alt="start-chat">
+                <img src="https://raw.githubusercontent.com/abhitensorgo/chatbot/main/assets/open-chat.svg" alt="start-chat">
             </button>
         </div>
     </div>
     <div id="chatbox">
         <div id="chatbox-header">
             <button id="close-chatbox">
-                <img src="../assets/back.svg" alt="back-ios">
+                <img src="https://raw.githubusercontent.com/abhitensorgo/chatbot/main/assets/back.svg" alt="back-ios">
             </button>
             <div>
                 <div class="header-line">
@@ -70,7 +69,7 @@ const chatboxHTML =
                     <button id="suggestion-button-2"><span>Thanks !</span></button>
                 </div>
                 <button id="clear-button">
-                    <img src="../assets/clear.svg" alt="">
+                    <img src="https://raw.githubusercontent.com/abhitensorgo/chatbot/main/assets/clear.svg" alt="">
                 </button>
             </div>
         </div>
@@ -84,7 +83,7 @@ const chatboxHTML =
 
             </div>
             <button id="send-button">
-                <img src="../assets/send-msg.svg" alt="Send Icon">
+                <img src="https://raw.githubusercontent.com/abhitensorgo/chatbot/main/assets/send-msg.svg" alt="Send Icon">
             </button>
 
         </div>
